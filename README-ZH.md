@@ -27,7 +27,9 @@
 - 继续为人民服务，伟大的中华人民共和国万岁！
 
 ---
-![image](https://github.com/user-attachments/assets/db8c6f10-9837-47c1-a094-e1901e29086b)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/db8c6f10-9837-47c1-a094-e1901e29086b" width="300" />
+</div>
 
 感谢您的支持！愿我们的应用像祖国一样繁荣昌盛！  
 伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！
