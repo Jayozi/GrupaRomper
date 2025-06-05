@@ -1,4 +1,4 @@
-# 🚌 Moja Wielce Dostojna Przelotnia Zaprzęgowa – Produkt Szlacheckiej Pracy 🇵🇱
+# 🐎 Moja Wielce Dostojna Przelotnia Zaprzęgowa – Produkt Szlacheckiej Pracy 🇵🇱
 
 | 🌐 Dokumentacja w językach |  
 |---------------------------|  
@@ -13,9 +13,11 @@
 
 ## Witajcie, Mości Szlachcice i Pospolicie!
 
-Ta moja przelotnia zaprzęgowa, owoc najświetniejszej pracy szlacheckiej i miodem słodka jak z miodów gospodarskich na stołach naszych, służy do zarządzania trasami moich szlacheckich powozów i zaprzęgów. Można się tu logować, rejestrować i sterować kursami — dodawać, poprawiać, usuwać — wszystko wedle porządku godnego naszego stanu i z honorem, którego nie powstydziłby się sam hetman.
+Ta oto **przelotnia zaprzęgowa**, będąca owocem mych szlacheckich starań, powstała nie po to, by chłop się w niej grzebał, lecz by godny herbu pan mógł prowadzić swoje powozy i zaprzęgi po drogach Rzeczypospolitej – z fasonem, porządkiem i należytym splendorem.
 
-Chłopi niechaj piją wódkę w swoich chatach i nie zawracają głowy szlachcie, bo to nie ich rzecz rządzić czy decydować! Hasła tu strzeżone są lepiej niż dziedzictwo rodowe — nie każdy dostąpi zaszczytu wejścia do MOJEJ przelotni!
+Można tu zakładać konta, wchodzić jak do dworu przez główne wrota, zmieniać kierunki przejazdów, a nawet usuwać trasy, które niegodne są stanu szlacheckiego. Wszystko to bez udziału pachołków i ciżby miejskiej – jeno z dumą i honorem, jak przystało na ród zasłużony!
+
+Chłop niechaj w polu zostanie, a nie wtyka nosa między konie i kod!
 
 ---
 
@@ -29,8 +31,9 @@ Chłopi niechaj piją wódkę w swoich chatach i nie zawracają głowy szlachcie
 - Zarządza powozami i trasami z szlachecką starannością, jak chorągiew na polu bitwy  
 - Rejestruje i wpuszcza jedynie godnych — bo i tak wszyscy wiedzą, kto ma oręż i herb  
 - Hasła jak stalowe szable — niezłomne i nie do przebicia  
-- Prosta w obsłudze, nawet szlachcic spoza miasta da radę — choćby przy szklance gorzały przy ognisku  
+- Prosta w obsłudze, nawet szlachcic spoza miasta da radę — choćby przy szklance gorzały przy ognisku
 
+Nawet najprostrzy chłop móglby spróbować, ale lepiej niech nie próbuje
 ---
 
 ## Technologie szlacheckie
@@ -54,6 +57,8 @@ Zapewniam Mości, iż nie ma w całej Rzeczypospolitej ani w szerszych kresach E
 
 
 ---
-## KONIEC RZECZY, KTÓRE NALEŻAŁO POWIEDZIEĆ, NIECHAJ ŻYJE WIECZNA CHWAŁA SZLACHECKIEJ PRZELOTNI!
-Powiadam Wam, Mości, że wyłożenie tych słów wymagało nie lada trudu i potu, toteż teraz nadszedł czas, aby uczcić ten wysiłek należną mi cząstką gorzałki — niechaj będzie ona godna mego trudzenia się i zaszczytna jak mój ród!
+
+## KONIEC I CHWAŁA! WYSTARCZY TEGO GADANIA
+
+Powiem wprost, Mości Panowie – gdym już tak długo jęzorem wywijał i mądrości sypał jak kaszy z worka, to teraz pora, by należała się mnie gorzałka – i to nie byle jaka, lecz taka co parzy w trzewia i chwałę rodu mego podnosi w oparach! Niechaj szlachcic nie gada na sucho!
 
