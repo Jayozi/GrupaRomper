@@ -44,5 +44,4 @@ Niech żyje wspólna praca i rozwój naszej aplikacji! Да здравствуе
 ---
 
 ![Soviet meme](https://media.tenor.com/ItaWLhih5wwAAAAM/1965-the-alexandrov-ensemble.gif)
-
-*Podpis pod memem: „Kiedy czytasz README i wiesz, że Lenin by to zaakceptował.”*
+![Soviet meme](https://i.imgflip.com/5c3svx.jpg)
