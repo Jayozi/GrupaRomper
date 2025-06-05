@@ -1,5 +1,16 @@
 # 🚌 我们伟大的公交应用 – .NET MAUI (中文) 🇨🇳
 
+---
+
+| 🌐 Documentation Languages |  
+|---------------------------|  
+| 🇬🇧 [English](README.md) |  
+| 🇵🇱 [Polski](README-PL.md) |  
+| 🇩🇪 [Deutsch](README-DE.md) |  
+| 🇷🇺 [Русский](README-RU.md) |   
+| 🇨🇳 [中文](README-ZH.md) |
+
+---
 伟大的中华人民共和国万岁！  
 这是我们的公交管理应用程序，是全体人民的共同劳动成果。  
 我们共同努力，为了让每个人都能方便、安全地乘坐公交。
