@@ -28,7 +28,7 @@
 
 ---
 <div align="center">
-  <img src="https://chineseposters.net/sites/default/files/images/e37-724.jpg" width="300" />
+  <img src="https://chineseposters.net/sites/default/files/images/e37-724.jpg" width="500" />
 </div>
 
 ---
@@ -46,5 +46,5 @@
 *图注：我们为伟大的中华人民共和国干杯！*
 
 <div align="center">
-      <img src="https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png" width="300" />
+      <img src="https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png" width="200" />
 </div>
