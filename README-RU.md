@@ -1,6 +1,6 @@
 # 🚌 Nasza Wielka Aplikacja Autobusowa – Produkt Ludowej Pracy 🚩 - .NET MAUI (Ruski)
 
-| 🌐 Dokumentacja w językach |  
+| 🌐 Documentation Languages |  
 |---------------------------|  
 | 🇬🇧 [English](README.md) |  
 | 🇵🇱 [Polski](README-PL.md) |  
