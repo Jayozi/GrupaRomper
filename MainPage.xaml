@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.MainPage">
+
+    <!-- Gradientowe tło -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#FFCC80" Offset="0" />
+            <GradientStop Color="#FF9800" Offset="1" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid>
+        <!-- Główna zawartość -->
+        <VerticalStackLayout Padding="30,20" Spacing="35" HorizontalOptions="Center" VerticalOptions="Center">
+
+            <!-- Wielki napis -->
+            <Label Text="PROGRAM DO ZARZĄDZANIA UŻYTKOWNIKAMI I ROZKŁADAMI"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Padding="10" />
+
+            <!-- Logo / Obrazek -->
+            <Image Source="bus1.png"
+                   HeightRequest="400"
+                   WidthRequest="350"
+                   Aspect="AspectFit"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,10" />
+        </VerticalStackLayout>
+
+        <!-- Pasek dolny -->
+        <Frame Grid.Row="1"
+               HeightRequest="280"
+               Padding="20"
+               CornerRadius="0"
+               HasShadow="True"
+               VerticalOptions="End"
+               HorizontalOptions="Fill"
+               BackgroundColor="Transparent">
+
+            <!-- Gradientowy pasek dolny -->
+            <Frame.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FF9800" Offset="0" />
+                    <GradientStop Color="#F57C00" Offset="1" />
+                </LinearGradientBrush>
+            </Frame.Background>
+
+            <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Spacing="15">
+
+                <!-- Przycisk logowania -->
+                <Button Text="Zaloguj się"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        CornerRadius="25"
+                        WidthRequest="280"
+                        HeightRequest="50"
+                        Clicked="OnLoginButtonClicked" />
+
+                <!-- Przycisk rejestracji -->
+                <Button Text="Zarejestruj się"
+                        BackgroundColor="White"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        CornerRadius="25"
+                        WidthRequest="280"
+                        HeightRequest="50"
+                        Clicked="OnRegisterButtonClicked" />
+
+                <!-- Tekst z regulaminem -->
+                <Label Text="Przechodząc dalej zgadzasz się na Regulamin"
+                       FontSize="12"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       Padding="0,10,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OpenRegulaminCommand}" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <!-- Komunikat o błędach -->
+                <Label x:Name="ErrorLabel"
+                       TextColor="Red"
+                       FontSize="14"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

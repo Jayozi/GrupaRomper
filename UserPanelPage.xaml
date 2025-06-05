@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.UserPanelPage"
+             BackgroundColor="White">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Padding="30" Spacing="20" Grid.Column="0" VerticalOptions="Center">
+
+            <Label Text="Panel Użytkownika"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#333"/>
+
+            <Button Text="Zarządzaj autobusami"
+                BackgroundColor="#2196F3"
+                TextColor="White"
+                FontSize="18"
+                CornerRadius="25"
+                HeightRequest="50"
+                Clicked="OnManageBuses"/>
+
+
+            <Button x:Name="settingsButton"
+                    Text="Ustawienia"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnSettings"/>
+
+            <Button Text="Wyloguj się"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    FontSize="18"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    Clicked="OnBackButtonClicked"/>
+        </StackLayout>
+
+        <Image Grid.Column="1" Source="slow_user_bus.png" Aspect="AspectFill"/>
+
+        <StackLayout x:Name="UserDetailsPanel"
+                     IsVisible="False"
+                     Padding="10"
+                     BackgroundColor="White"
+                     Spacing="10"
+                     HorizontalOptions="Center"
+                     Grid.Column="0" Grid.Row="1">
+            <CollectionView x:Name="UserDetailsList"
+                            ItemsSource="{Binding UserDetails}"
+                            SelectionMode="None"
+                            HeightRequest="200">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="15" CornerRadius="20" BackgroundColor="#FFF" HasShadow="True">
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="{Binding Key}" VerticalOptions="Center" TextColor="Black" FontSize="20"/>
+                                <Label Text="{Binding Value}" VerticalOptions="Center" TextColor="Gray" FontSize="20"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Zmień hasło"
+                        BackgroundColor="#FF5722"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Clicked="OnChangePassword"/>
+            
+            <Button x:Name="BackButton"
+                    Text="Cofnij"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    Clicked="OnHideUserButton"
+                    IsVisible="False"
+                    WidthRequest="100"
+                    HeightRequest="40"
+                    FontSize="12"
+                    Padding="5"
+                    Margin="10"
+                    HorizontalOptions="Center"/>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

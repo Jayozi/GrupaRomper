@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.AdminPanelPage"
+             BackgroundColor="#F5F5F5">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollView Grid.Column="0">
+            <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+
+                <Label Text="Panel Administratora"
+                       FontSize="32"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+
+                <Button Text="Zarządzaj autobusami"
+                        BackgroundColor="#2196F3"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Clicked="OnViewSchedule"/>
+                
+                <Button Text="Zarządzaj użytkownikami"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Clicked="OnManageUserClicked"/>
+
+                <StackLayout x:Name="userManagementPanel" IsVisible="False" Spacing="10">
+                    <Frame CornerRadius="15" Padding="10" BackgroundColor="White" HasShadow="True">
+                        <CollectionView x:Name="UserList" HeightRequest="300">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame Padding="15" CornerRadius="20" BackgroundColor="#FFF" HasShadow="True">
+                                        <StackLayout Orientation="Horizontal" Spacing="10">
+                                            <Label Text="{Binding Imie}" VerticalOptions="Center" TextColor="Black"/>
+                                            <Label Text="{Binding Nazwisko}" VerticalOptions="Center" TextColor="Black"/>
+                                            <Label Text="{Binding Email}" VerticalOptions="Center" TextColor="Gray"/>
+
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" Spacing="5">
+                                                <Button Text="Usuń"
+                                                        BackgroundColor="Red"
+                                                        TextColor="White"
+                                                        Clicked="OnDeleteUser"
+                                                        CommandParameter="{Binding .}"
+                                                        WidthRequest="100"/>
+                                                <Button Text="Edytuj"
+                                                        BackgroundColor="Blue"
+                                                        TextColor="White"
+                                                        Clicked="OnEditUser"
+                                                        CommandParameter="{Binding .}"
+                                                        WidthRequest="100"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </Frame>
+
+                    <Button Text="Dodaj uzytkownika"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Clicked="OnAddUser"/>
+
+                    <StackLayout x:Name="userAddForm" IsVisible="False">
+                        <Label Text="Dodaj użytkownika" FontSize="20" HorizontalOptions="Center" TextColor="Black"/>
+
+                        <Entry x:Name="NameEntry" Placeholder="Imię" TextColor="Black"/>
+                        <Entry x:Name="SurnameEntry" Placeholder="Nazwisko" TextColor="Black"/>
+                        <Entry x:Name="EmailEntry" Placeholder="Email" TextColor="Black"/>
+                        <Entry x:Name="PasswordEntry" Placeholder="Hasło" IsPassword="True" TextColor="Black"/>
+                        <Entry x:Name="AdmPassEntry" Placeholder="Uprawnienia (opcjonalnie)" TextColor="Black"/>
+
+                        <Button Text="Dodaj użytkownika" Clicked="OnAddUserToDatabase" TextColor="White"/>
+                    </StackLayout>
+
+                    <Button Text="Zmień hasło"
+                        BackgroundColor="#FF5722"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Clicked="OnChangePassword"/>
+                </StackLayout>
+
+                <Button Text="Wyloguj się"
+                        BackgroundColor="Red"
+                        TextColor="White"
+                        FontSize="18"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        Clicked="OnBackButtonClicked"/>
+            </StackLayout>
+        </ScrollView>
+
+        <Image Grid.Column="1" Source="fast_adm_bus.png" Aspect="AspectFill"/>
+
+    </Grid>
+</ContentPage>

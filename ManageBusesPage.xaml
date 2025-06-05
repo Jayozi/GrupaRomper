@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.ManageBusesPage"
+             Title="Zarządzanie autobusami"
+             BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="25">
+
+            <!-- Nagłówek -->
+            <Label Text="Panel zarządzania autobusami"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+
+            <!-- Lista autobusów -->
+            <CollectionView x:Name="BusesCollectionView" ItemsSource="{Binding Buses}" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="20"
+                               Padding="15"
+                               Margin="0,0,0,20"
+                               BackgroundColor="White"
+                               HasShadow="True"
+                               BorderColor="#E0E0E0">
+                            <StackLayout Spacing="8">
+                                <Label Text="{Binding Nazwa}"
+                                       FontSize="22"
+                                       FontAttributes="Bold"
+                                       TextColor="#333" />
+                                <Label Text="{Binding Skad, StringFormat='🚌 Skąd: {0}'}"
+                                       FontSize="14"
+                                       TextColor="#555" />
+                                <Label Text="{Binding Dokad, StringFormat='🎯 Dokąd: {0}'}"
+                                       FontSize="14"
+                                       TextColor="#555" />
+                                <Label Text="{Binding Godzina, StringFormat='🕒 Godzina wyjazdu: {0}'}"
+                                       FontSize="14"
+                                       TextColor="#555" />
+                                <Label Text="{Binding CenaBiletu, StringFormat='💰 Cena biletu: {0} zł'}"
+                                       FontSize="14"
+                                       TextColor="#555" />
+
+                                <!-- Tutaj możesz dodać przyciski, jeśli potrzebujesz -->
+                            </StackLayout>
+                        </Frame>
+                        
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
+            <!-- Separator -->
+            <BoxView HeightRequest="2" BackgroundColor="#E0E0E0" Margin="0,20,0,10"/>
+
+            <!-- Przycisk Powrót -->
+            <Button Text="Powrót"
+                    Clicked="OnBackButtonClicked"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

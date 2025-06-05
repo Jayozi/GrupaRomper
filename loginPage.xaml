@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.loginPage"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <Grid>
+            <Button
+                Text="POWRÓT"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Padding="10"
+                WidthRequest="100"
+                HeightRequest="40"
+                Clicked="OnBackButtonClicked"
+                BackgroundColor="LightGray"
+                TextColor="Black"
+                CornerRadius="0" />
+
+
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Label Text="Strona Logowania"
+                       FontSize="30"
+                       HorizontalOptions="Center" />
+
+                <!-- EMAIL -->
+                <Entry x:Name="emailEntry"
+                       Placeholder="Wpisz email użytkownika"
+                       Margin="0,20,0,10"
+                       TextColor="Black"
+                       Keyboard="Text" />
+
+                <!-- HASLO-->
+                <Entry x:Name="passwordEntry"
+                       Placeholder="Wpisz hasło"
+                       IsPassword="True"
+                       Margin="0,10,0,20"
+                       TextColor="Black"
+                       Keyboard="Text" />
+
+                <Button Text="Zaloguj się"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        CornerRadius="20"
+                        Clicked="OnLoginButtonClicked" />   
+
+                    <!-- Label do wyświetlania błędów -->
+                <Label x:Name="ErrorLabel"
+                       TextColor="Red"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+
+
+
+
+

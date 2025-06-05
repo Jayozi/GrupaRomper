@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.AdminBusPage"
+             Title="Zarządzanie autobusami"
+             BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="25">
+
+            <!-- Nagłówek -->
+            <Label Text="Panel zarządzania autobusami"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+
+            <!-- Lista autobusów -->
+            <CollectionView x:Name="BusesCollectionView" ItemsSource="{Binding Buses}" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="20"
+               Padding="15"
+               Margin="0,0,0,20"
+               BackgroundColor="White"
+               HasShadow="True"
+               BorderColor="#E0E0E0">
+                            <StackLayout Spacing="8">
+                                <!-- Nagłówek -->
+                                <Label Text="{Binding Nazwa}"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       TextColor="#333" />
+
+                                <!-- Szczegóły trasy -->
+                                <Label Text="{Binding Skad, StringFormat='🚌 Skąd: {0}'}"
+                       FontSize="14"
+                       TextColor="#555" />
+                                <Label Text="{Binding Dokad, StringFormat='🎯 Dokąd: {0}'}"
+                       FontSize="14"
+                       TextColor="#555" />
+                                <Label Text="{Binding Godzina, StringFormat='🕒 Godzina wyjazdu: {0}'}"
+                       FontSize="14"
+                       TextColor="#555" />
+                                <Label Text="{Binding CenaBiletu, StringFormat='💰 Cena biletu: {0} zł'}"
+                       FontSize="14"
+                       TextColor="#555" />
+
+                                <!-- Przyciski: edycja i usunięcie -->
+                                <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,10,0,0">
+                                    <Button Text="Edytuj"
+                            Clicked="OnEditClicked"
+                            CommandParameter="{Binding .}"
+                            BackgroundColor="#1976D2"
+                            TextColor="White"
+                            CornerRadius="20"
+                            WidthRequest="100"/>
+                                    <Button Text="Usuń"
+                            Clicked="OnDeleteBusClicked"
+                            CommandParameter="{Binding .}"
+                            BackgroundColor="#D32F2F"
+                            TextColor="White"
+                            CornerRadius="20"
+                            WidthRequest="100"/>
+                                </StackLayout>
+
+                                <!-- Panel edycji -->
+                                <Frame StyleId="EditPanel"
+                                       IsVisible="False"
+                                       Padding="10"
+                                       Margin="0,15,0,0"
+                                       BackgroundColor="#FAFAFA"
+                                       BorderColor="#BDBDBD"
+                                       CornerRadius="10"
+                                       HasShadow="False">
+                                    <StackLayout Spacing="10">
+                                        <Entry Text="{Binding Nazwa}" Placeholder="✏️ Nowa nazwa" TextColor="Black"/>
+                                        <Entry Text="{Binding Skad}" Placeholder="✏️ Skąd" TextColor="Black"/>
+                                        <Entry Text="{Binding Dokad}" Placeholder="✏️ Dokąd" TextColor="Black"/>
+                                        <Entry Text="{Binding Godzina}" Placeholder="🕒 Godzina (hh:mm)" TextColor="Black"/>
+                                        <Entry Text="{Binding CenaBiletu}" Placeholder="💰 Cena biletu" Keyboard="Numeric" TextColor="Black"/>
+                                        <Button Text="Zapisz zmiany"
+                                                Clicked="OnSaveClicked"
+                                                CommandParameter="{Binding .}"
+                                                BackgroundColor="#388E3C"
+                                                TextColor="White"
+                                                CornerRadius="20"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+            <!-- Separator -->
+            <BoxView HeightRequest="2" BackgroundColor="#E0E0E0" Margin="0,20,0,10"/>
+
+            <!-- Formularz dodawania -->
+            <Label Text="Dodaj nowy autobus"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="NewBusName" Placeholder="Nazwa" TextColor="Black" />
+            <Entry x:Name="NewBusFrom" Placeholder="Skąd" TextColor="Black" />
+            <Entry x:Name="NewBusTo" Placeholder="Dokąd" TextColor="Black" />
+
+            <!-- Godzina -->
+            <StackLayout>
+                <Label Text="Godzina wyjazdu" FontSize="14" TextColor="Black"/>
+                <TimePicker x:Name="NewBusTime" Time="12:00" TextColor="Black"/>
+            </StackLayout>
+
+            <Entry x:Name="NewBusPrice" Placeholder="Cena biletu" Keyboard="Numeric" TextColor="Black" />
+
+            <!-- Przycisk dodania -->
+            <Button Text="Dodaj autobus"
+                    Clicked="OnAddBusClicked"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+            <Button Text="Powrót"
+                    Clicked="OnBackButtonClicked"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

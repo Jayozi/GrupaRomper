@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.registerPage"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <Grid>
+            
+            <Button
+                Text="POWRÓT"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Padding="10"
+                WidthRequest="100"
+                HeightRequest="40"
+                Clicked="OnBackButtonClicked"
+                BackgroundColor="LightGray"
+                TextColor="Black"
+                CornerRadius="0" />
+
+
+
+
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+                <Label Text="Strona Rejestracji"
+                       FontSize="30"
+                       HorizontalOptions="Center" />
+
+                <!-- IMIE -->
+                <Entry x:Name="NameEntry"
+                       Placeholder="Wpisz imie"
+                       Margin="0,20,0,10"
+                       TextColor="Black"
+                       Keyboard="Text" />
+
+                <!-- NAZWISKO -->
+                <Entry x:Name="SurnameEntry"
+                       Placeholder="Wpisz nazwisko"
+                       Margin="0,20,0,10"
+                       TextColor="Black"
+                       Keyboard="Text" />
+
+                <!-- EMAIL -->
+                <Entry x:Name="emailEntry"
+                       Placeholder="Wpisz email"
+                       Margin="0,20,0,10"
+                       TextColor="Black"
+                       Keyboard="Text" />
+                
+                <!-- HASLO-->
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="Wpisz hasło"
+                       IsPassword="True"
+                       Margin="0,10,0,20"
+                       TextColor="Black"
+                       Keyboard="Text" />
+
+                <!-- HASLO ADM -->
+                <Entry x:Name="PermissionEntry"
+                       Placeholder="Wpisz hasło administratora"
+                       IsPassword="True"
+                       Margin="0,10,0,20"
+                       TextColor="Black"
+                       Keyboard="Text" />
+
+                <Button Text="Zarejestruj się"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        CornerRadius="20" 
+                        Clicked="OnRegisterUPButtonClicked"/>
+
+                <!-- Label do wyświetlania błędów -->
+                <Label x:Name="ErrorLabel"
+                       TextColor="Red"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+                
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+
+
+
+
+
