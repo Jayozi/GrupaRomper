@@ -8,6 +8,10 @@ Pełna, szczegółowa dokumentacja projektu dostępna jest pod linkiem:
 [**Dłuższa dokumentacja**](README-LONGER.md)
 
 ---
+
+👉 [Kliknij tutaj, aby pobrać projekt (.rar) z MediaFire](https://www.mediafire.com/file/jiod1vuoa9j1ulv/projekt.rar/file)
+
+---
 ## 📌 Spis treści
 
 - [📸 Zrzuty ekranu](#-zrzuty-ekranu)
