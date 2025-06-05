@@ -1,6 +1,5 @@
 # 🐎 Moja Wielce Dostojna Przelotnia Zaprzęgowa – Produkt Szlacheckiej Pracy 🇵🇱
 
----
 
 | 🌐 Dokumentacja w językach |  
 |---------------------------|  
