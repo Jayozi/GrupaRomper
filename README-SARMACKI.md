@@ -1,4 +1,4 @@
-# 🚌 Moja Wielce Dostojna Aplikacja Zaprzęgu Konnego – Produkt Szlacheckiej Pracy 🇵🇱
+# 🚌 Moja Wielce Dostojna Przelotnia Zaprzęgowa – Produkt Szlacheckiej Pracy 🇵🇱
 
 | 🌐 Dokumentacja w językach |  
 |---------------------------|  
@@ -13,56 +13,46 @@
 
 ## Witajcie, Mości Szlachcice i Pospolicie!
 
-Ta moja aplikacja, produkt najświetniejszej pracy szlacheckiej, służy do zarządzania MOIM zaprzęgiem konnym i innymi trasami. To nie jest byle co — to jest narzędzie dla prawdziwych panów i pań, którzy wiedzą, co to jest porządek i prestiż.  
+Ta moja przelotnia zaprzęgowa, owoc najświetniejszej pracy szlacheckiej, służy do zarządzania trasami moich szlacheckich powozów i zaprzęgów. Można się tu logować, rejestrować i sterować kursami — dodawać, poprawiać, usuwać — wszystko wedle porządku godnego naszego stanu.  
 
-Można się tu logować, rejestrować i zarządzać trasami MOJEGO zaprzęgu — dodawać, edytować, usuwać — wszystko w zgodzie z wielowiekową tradycją zarządzania folwarkiem, tyle że w nowoczesnym stylu!  
-
-Chłopi niech się uczą pokory i cierpliwości, bo to aplikacja dla szlachty. Hasła są zabezpieczone jak skarbiec królewski — nikt niepowołany nie ma tu wstępu!
+Chłopi mogą tylko patrzeć z daleka, bo to nie ich rzecz rządzić czy decydować! Hasła chronione lepiej niż skarbiec królewski — nie każdy dostąpi zaszczytu wejścia do MOJEJ przelotni!
 
 ---
 
-👉 **Pobierz MOJ projekt (RAR):**  
+👉 **Pobierz MOJ dzieło (RAR):**  
 [MediaFire – kliknij tutaj](https://www.mediafire.com/file/jiod1vuoa9j1ulv/projekt.rar/file)
 
 ---
 
-## Co MOJA aplikacja potrafi?
+## Co potrafi ta przelotnia?
 
-- Zarządzanie MOIM zaprzęgiem — trasy, czas, ceny — wszystko wedle MOJEJ woli  
-- Rejestracja i logowanie szlachty — bo tylko MOI ludzie mają tu prawa  
-- Hasła zabezpieczone na najwyższym poziomie — tylko dla godnych  
-- Intuicyjny interfejs — nawet najprostszy chłop mógłby spróbować, ale lepiej niech nie próbuje  
-
----
-
-## Technologie godne szlachty
-
-- .NET MAUI — technologia najwyższej próby, którą MOJA aplikacja dziedziczy niczym szlacheckie herby  
-- C# i XAML — języki, które niczym stare inskrypcje, tworzą ład i porządek w MOIM cyfrowym folwarku  
-- SQLite — MOJA księga, gdzie każdy wóz i koń jest zapisany  
-- PBKDF2 z solą — jak dobra miedź, chroni MOJE sekrety i MOJE hasła  
+- Zarządza powozami i trasami z szlachecką starannością  
+- Rejestruje i wpuszcza jedynie godnych — bo i tak wszyscy wiedzą, kto jest kto  
+- Hasła jak mury zamku — nie do przebicia  
+- Prosta w obsłudze, nawet szlachcic spoza miasta da radę  
 
 ---
 
-## Jak zacząć korzystać z MOJEGO dzieła?
+## Technologie szlacheckie
 
-Uruchom Visual Studio, podłącz emulator lub urządzenie, otwórz MOJ projekt, zbuduj i panuj nad MOIM zaprzęgiem! To proste, jak wódka i chleb na weselu!  
+- .NET MAUI — jak srebrny herb rodowy, lśni i działa bez zarzutu  
+- C# i XAML — języki, w których pisane są nasze dzieła wielkości  
+- SQLite — skarbiec danych  
+- PBKDF2 z solą — ochroni tajemnice jak najtwardsza zbroja  
 
 ---
 
 ## Plany na przyszłość?
 
-- Rezerwacja miejsc w MOIM zaprzęgu — bo szlachcic zawsze pierwszy!  
-- Filtrowanie tras — dla wygody MOJEJ i MOICH gości  
-- Może nawet jakieś bajery, które chłopi na dworze będą podziwiać, choć nie pojmą  
+- Rezerwacje miejsc — bo szlachcic pierwszy do stołu i do powozu  
+- Filtry tras — by wygodniej planować wędrówki po Rzeczypospolitej  
+- I inne cuda, których chłopom nie potrzeba  
 
 ---
 
-Bo pamiętajcie, to jest MOJE, moje i tylko MOJE dzieło, które z dumą prezentuję światu!  
-
-A teraz, Mości Dobrodzieju, uszanuj MOJ spokój, bo szlachta ma ważniejsze sprawy niż gadanie o technologiach!
+To jest najlepsza przelotnia zaprzęgowa w całej Rzeczypospolitej, a może i w całej Europie! 
 
 ---
 
 ![Sarmacki mem](https://i.imgur.com/J5nQ2Cd.gif)  
-*„Kiedy szlachcic wsiada do MOJEGO zaprzęgu, a chłop patrzy z daleka z zazdrością”*
+*„Kiedy szlachcic wsiada do przelotni, a chłop tylko zazdrośnie spogląda”*
