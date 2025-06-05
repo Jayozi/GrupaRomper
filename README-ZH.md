@@ -28,7 +28,6 @@
 
 ---
 ![image](https://github.com/user-attachments/assets/db8c6f10-9837-47c1-a094-e1901e29086b)
-![image](https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png)
 
 感谢您的支持！愿我们的应用像祖国一样繁荣昌盛！  
 伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！
@@ -41,3 +40,5 @@
 ![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
 
 *图注：我们为伟大的中华人民共和国干杯！*
+
+![image](https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png)
