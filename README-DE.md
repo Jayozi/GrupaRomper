@@ -41,4 +41,4 @@ Dis ist ein super cool Projekt fur die mobile Applikation mit MAUI .NET gemacht 
 📸 **Bitte Geduld haben!** Wir machen das fertig… nach Kaffee und Kiełbasa. ☕🌭  
 Danke schön für dein visiten auf unsere GitHub, und… bis bald! 👋
 
-![Tusk Der Niemcy]([https://i.imgur.com/3A4J3aZ.gif](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oIQCQUdG7UOA0UVkMi3bnHjQzxWFQEm1HA&s))
+![Tusk Der Niemcy](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oIQCQUdG7UOA0UVkMi3bnHjQzxWFQEm1HA&s)
