@@ -1,5 +1,13 @@
 # 🚌 Bus Management App – .NET MAUI  
-**Looking for the Polish version?** [Click here to view the Polish README 🇵🇱](README-PL.md)
+| 🌐 Documentation Languages |  
+|---------------------------|  
+| 🇬🇧 [English](README.md) |  
+| 🇵🇱 [Polski](README-PL.md) |  
+| 🇩🇪 [Deutsch](README-DE.md) _(coming soon)_ |  
+| 🇷🇺 [Русский](README-RU.md) _(coming soon)_ |  
+| 🇨🇳 [中文](README-ZH.md) _(coming soon)_ |
+
+---
 
 Project created as part of learning mobile app development using .NET MAUI. It allows user registration and login, role differentiation (admin/user), and bus route management (adding, editing, deleting).
 
