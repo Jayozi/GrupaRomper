@@ -63,3 +63,4 @@ Zapewniam Mości, iż nie ma w całej Rzeczypospolitej ani w szerszych kresach E
 Powiem wprost, Mości Panowie – gdym już tak długo jęzorem wywijał i mądrości sypał jak kaszy z worka, to teraz pora, by należała się mnie gorzałka – i to nie byle jaka, lecz taka co parzy w trzewia i chwałę rodu mego podnosi w oparach!  
 Niech szlachta żyje na wieki, a chłop dalej orze pole!
 
+![Piekny Ja](https://hdtvpolska.com/wp-content/uploads/2023/10/1670-film-netflix.jpg)
