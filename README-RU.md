@@ -7,7 +7,7 @@
 | 🇩🇪 [Deutsch](README-DE.md) |  
 | 🇷🇺 [Русский](README-RU.md) |   
 | 🇨🇳 [中文](README-ZH.md) |
-
+| 🏰 [Sarmacki](README-SARMACKI.md) |
 ---
 
 ## Witajcie, towariści i towarzyszki!
