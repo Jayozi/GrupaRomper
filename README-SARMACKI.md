@@ -54,6 +54,6 @@ Zapewniam Mości, iż nie ma w całej Rzeczypospolitej ani w szerszych kresach E
 
 
 ---
+## KONIEC RZECZY, KTÓRE NALEŻAŁO POWIEDZIEĆ, NIECHAJ ŻYJE WIECZNA CHWAŁA SZLACHECKIEJ PRZELOTNI!
+Powiadam Wam, Mości, że wyłożenie tych słów wymagało nie lada trudu i potu, toteż teraz nadszedł czas, aby uczcić ten wysiłek należną mi cząstką gorzałki — niechaj będzie ona godna mego trudzenia się i zaszczytna jak mój ród!
 
-![Sarmacki mem](https://i.imgur.com/J5nQ2Cd.gif)  
-*„Kiedy szlachcic wsiada do przelotni, a chłop tylko zazdrośnie spogląda”*
