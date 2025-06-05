@@ -50,7 +50,8 @@ Chłopi niechaj piją wódkę w swoich chatach i nie zawracają głowy szlachcie
 
 ---
 
-Zapewniam, iż jest to najlepsza przelotnia zaprzęgowa w całej Rzeczypospolitej, a może i w całej Europie! Niechaj służy jak dobre wino na biesiadzie – długo i z honorem!
+Zapewniam Mości, iż nie ma w całej Rzeczypospolitej ani w szerszych kresach Europy przelotni zaprzęgowej równie szlachetnej i niezawodnej co ta moja. Ona nie tylko służy godnie, jak najznamienitsze wino na biesiadzie u samego hetmana, ale również wytrzymuje próbę czasu niczym niezłomna husaria na polu chwały. Niechaj będzie świadectwem mojej wielkości i nieprzebranej mądrości, z której czerpać będą pokolenia przyszłych szlachciców, a wszyscy, którzy zaszczycą ją swą obecnością, niech pamiętają, że mają do czynienia z dziełem najwyższej próby, wartym koronacji i wspaniałego hołdu.
+
 
 ---
 
