@@ -13,9 +13,9 @@
 
 ## Witajcie, Mości Szlachcice i Pospolicie!
 
-Ta moja przelotnia zaprzęgowa, owoc najświetniejszej pracy szlacheckiej, służy do zarządzania trasami moich szlacheckich powozów i zaprzęgów. Można się tu logować, rejestrować i sterować kursami — dodawać, poprawiać, usuwać — wszystko wedle porządku godnego naszego stanu.  
+Ta moja przelotnia zaprzęgowa, owoc najświetniejszej pracy szlacheckiej i miodem słodka jak z miodów gospodarskich na stołach naszych, służy do zarządzania trasami moich szlacheckich powozów i zaprzęgów. Można się tu logować, rejestrować i sterować kursami — dodawać, poprawiać, usuwać — wszystko wedle porządku godnego naszego stanu i z honorem, którego nie powstydziłby się sam hetman.
 
-Chłopi mogą tylko patrzeć z daleka, bo to nie ich rzecz rządzić czy decydować! Hasła chronione lepiej niż skarbiec królewski — nie każdy dostąpi zaszczytu wejścia do MOJEJ przelotni!
+Chłopi niechaj piją wódkę w swoich chatach i nie zawracają głowy szlachcie, bo to nie ich rzecz rządzić czy decydować! Hasła tu strzeżone są lepiej niż dziedzictwo rodowe — nie każdy dostąpi zaszczytu wejścia do MOJEJ przelotni!
 
 ---
 
@@ -26,31 +26,31 @@ Chłopi mogą tylko patrzeć z daleka, bo to nie ich rzecz rządzić czy decydow
 
 ## Co potrafi ta przelotnia?
 
-- Zarządza powozami i trasami z szlachecką starannością  
-- Rejestruje i wpuszcza jedynie godnych — bo i tak wszyscy wiedzą, kto jest kto  
-- Hasła jak mury zamku — nie do przebicia  
-- Prosta w obsłudze, nawet szlachcic spoza miasta da radę  
+- Zarządza powozami i trasami z szlachecką starannością, jak chorągiew na polu bitwy  
+- Rejestruje i wpuszcza jedynie godnych — bo i tak wszyscy wiedzą, kto ma oręż i herb  
+- Hasła jak stalowe szable — niezłomne i nie do przebicia  
+- Prosta w obsłudze, nawet szlachcic spoza miasta da radę — choćby przy szklance gorzały przy ognisku  
 
 ---
 
 ## Technologie szlacheckie
 
 - .NET MAUI — jak srebrny herb rodowy, lśni i działa bez zarzutu  
-- C# i XAML — języki, w których pisane są nasze dzieła wielkości  
-- SQLite — skarbiec danych  
-- PBKDF2 z solą — ochroni tajemnice jak najtwardsza zbroja  
+- C# i XAML — języki, w których pisane są nasze dzieła wielkości, niczym sarmackie epopeje  
+- SQLite — skarbiec danych pilnie strzeżony, jak skrzynia z familijnym majdanem  
+- PBKDF2 z solą — ochroni tajemnice jak najtwardsza zbroja husarska  
 
 ---
 
 ## Plany na przyszłość?
 
-- Rezerwacje miejsc — bo szlachcic pierwszy do stołu i do powozu  
-- Filtry tras — by wygodniej planować wędrówki po Rzeczypospolitej  
-- I inne cuda, których chłopom nie potrzeba  
+- Rezerwacje miejsc — bo szlachcic pierwszy do stołu, do powozu i do karczmy  
+- Filtry tras — by wygodniej planować wędrówki po szlacheckich kresach Rzeczypospolitej  
+- I inne cuda, których chłopom nie potrzeba i nie rozumieją, bo nie mają w sobie ducha rycerskiego  
 
 ---
 
-To jest najlepsza przelotnia zaprzęgowa w całej Rzeczypospolitej, a może i w całej Europie! 
+Zapewniam, iż jest to najlepsza przelotnia zaprzęgowa w całej Rzeczypospolitej, a może i w całej Europie! Niechaj służy jak dobre wino na biesiadzie – długo i z honorem!
 
 ---
 
