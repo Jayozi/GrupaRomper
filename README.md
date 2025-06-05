@@ -19,8 +19,6 @@ Projekt stworzony w ramach nauki programowania aplikacji mobilnych w .NET MAUI. 
 
 ## 📸 Zrzuty ekranu
 
-> Umieść zrzuty ekranów w folderze `screenshots/` i zaktualizuj ścieżki poniżej:
-
 ![Ekran logowania](screenshots/login.png)
 ![Panel administratora](screenshots/admin_panel.png)
 ![Dodawanie autobusu](screenshots/add_bus.png)
