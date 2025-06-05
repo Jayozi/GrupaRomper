@@ -23,7 +23,7 @@ Pełna, szczegółowa dokumentacja projektu dostępna jest pod linkiem:
 
 ## 📸 Zrzuty ekranu
 
-![Ekran logowania](screenshots/login.png)
+![Ekran logowania](screenshots/loginPage.png)
 ![Panel administratora](screenshots/admin_panel.png)
 ![Dodawanie autobusu](screenshots/add_bus.png)
 
