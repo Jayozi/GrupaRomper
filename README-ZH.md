@@ -33,6 +33,6 @@
 
 ---
 
-![庆祝 GIF](https://media.giphy.com/media/3o7aD4vc3Q7d9QoX20/giphy.gif)
+![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
 
 *图注：我们为伟大的中华人民共和国干杯！*
