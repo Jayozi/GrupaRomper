@@ -1,5 +1,13 @@
 # 🚌 Aplikacja do zarządzania autobusami – .NET MAUI
 
+| 🌐 Documentation Languages |  
+|---------------------------|  
+| 🇬🇧 [English](README.md) |  
+| 🇵🇱 [Polski](README-PL.md) |  
+| 🇩🇪 [Deutsch](README-DE.md) |  
+| 🇷🇺 [Русский](README-RU.md) |   
+| 🇨🇳 [中文](README-ZH.md) |
+
 Projekt stworzony w ramach nauki programowania aplikacji mobilnych w .NET MAUI. Umożliwia rejestrację i logowanie użytkowników, rozróżnianie ról (admin/użytkownik) oraz zarządzanie trasami autobusów (dodawanie, edycja, usuwanie).
 
 ---
