@@ -29,27 +29,27 @@ Chłop niechaj w polu zostanie, a nie wtyka nosa między konie i kod!
 ## Co potrafi ta przelotnia?
 
 - Zarządza powozami i trasami z szlachecką starannością, jak chorągiew na polu bitwy  
-- Rejestruje i wpuszcza jedynie godnych — bo i tak wszyscy wiedzą, kto ma oręż i herb  
-- Hasła jak stalowe szable — niezłomne i nie do przebicia  
-- Prosta w obsłudze, nawet szlachcic spoza miasta da radę — choćby przy szklance gorzały przy ognisku
+- Rejestracji tylko najzacniejszych obywateli stanu – reszta do stajni  
+- Hasła mocniejsze niż pancerz husarski 
+- Obsługi tak łatwej, że i szlachcic po czwartej butelce gorzałki da radę  
+- Nawet najprostrzy chłop móglby spróbować, ale lepiej niech nie próbuje bo najpierw musi pracować
 
-Nawet najprostrzy chłop móglby spróbować, ale lepiej niech nie próbuje
 ---
 
 ## Technologie szlacheckie
 
-- .NET MAUI — jak srebrny herb rodowy, lśni i działa bez zarzutu  
-- C# i XAML — języki, w których pisane są nasze dzieła wielkości, niczym sarmackie epopeje  
-- SQLite — skarbiec danych pilnie strzeżony, jak skrzynia z familijnym majdanem  
-- PBKDF2 z solą — ochroni tajemnice jak najtwardsza zbroja husarska  
-
+- `.NET MAUI` – narzędzie nie dla byle cepa, a dla szlachty z krwi i rodu  
+- `C#` i `XAML` – języki wielmożne, niemal jak łacina  
+- `SQLite` – skarbnica danych zamknięta na siedem pieczęci  
+- `PBKDF2 z solą` – kryptografia tak silna, że nawet Tatar by się odbił
+- 
 ---
 
-## Plany na przyszłość?
+## A cóż to będzie dalej?
 
-- Rezerwacje miejsc — bo szlachcic pierwszy do stołu, do powozu i do karczmy  
-- Filtry tras — by wygodniej planować wędrówki po szlacheckich kresach Rzeczypospolitej  
-- I inne cuda, których chłopom nie potrzeba i nie rozumieją, bo nie mają w sobie ducha rycerskiego  
+- Rezerwacja miejsc – bo wiadomo, że Mości Pan pierwszy do przelotni, a nie chłop spod stodoły  
+- Filtry dla tras – by można było wybrać tylko te godne honoru  
+- Inne udogodnienia, o których się chłopstwu nie śniło, a i mieszczanie tylko mruczą z zazdrością  
 
 ---
 
@@ -58,7 +58,8 @@ Zapewniam Mości, iż nie ma w całej Rzeczypospolitej ani w szerszych kresach E
 
 ---
 
-## KONIEC I CHWAŁA! WYSTARCZY TEGO GADANIA
+### 🏁 Koniec Waćpańskiej Cierpliwości
 
-Powiem wprost, Mości Panowie – gdym już tak długo jęzorem wywijał i mądrości sypał jak kaszy z worka, to teraz pora, by należała się mnie gorzałka – i to nie byle jaka, lecz taka co parzy w trzewia i chwałę rodu mego podnosi w oparach! Niechaj szlachcic nie gada na sucho!
+Powiem wprost, Mości Panowie – gdym już tak długo jęzorem wywijał i mądrości sypał jak kaszy z worka, to teraz pora, by należała się mnie gorzałka – i to nie byle jaka, lecz taka co parzy w trzewia i chwałę rodu mego podnosi w oparach!  
+Niech szlachta żyje na wieki, a chłop dalej orze pole!
 
