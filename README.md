@@ -3,9 +3,9 @@
 |---------------------------|  
 | 🇬🇧 [English](README.md) |  
 | 🇵🇱 [Polski](README-PL.md) |  
-| 🇩🇪 [Deutsch](README-DE.md) _(coming soon)_ |  
-| 🇷🇺 [Русский](README-RU.md) _(coming soon)_ |  
-| 🇨🇳 [中文](README-ZH.md) _(coming soon)_ |
+| 🇩🇪 [Deutsch](README-DE.md) |  
+| 🇷🇺 [Русский](README-RU.md) |   
+| 🇨🇳 [中文](README-ZH.md) |
 
 ---
 
