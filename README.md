@@ -127,9 +127,9 @@ cd projekt-autobusy
 
 ## 👨‍💻 Autorzy
 
-**Imię i nazwisko:** Krystian Koza
-**Imię i nazwisko:** Mateusz Janiczek
-**Imię i nazwisko:** Krystian Koza
+**Imię i nazwisko:** Krystian Koza <br>
+**Imię i nazwisko:** Mateusz Janiczek <br>
+**Imię i nazwisko:** Krystian Koza <br>
 **Rok szkolny:** 2024/2025  
 
 ---
