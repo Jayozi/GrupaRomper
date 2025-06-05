@@ -26,6 +26,13 @@ namespace projekt
             return Regex.IsMatch(email, wzorzec);
         }
 
+        // Zaladowanie jeszcze raz odswiezonej listy uzytkownikow
+        public static void ReloadUsersFromDatabase()
+        {
+            ListaUzytkownikow.Clear();
+            Database.LoadUsers();
+        }
+
         // Sprawdza, czy dany email już istnieje na liście użytkowników
         public static bool CzyIstniejEmail(string email)
         {

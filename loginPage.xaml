@@ -43,9 +43,9 @@
                         BackgroundColor="#4CAF50"
                         TextColor="White"
                         CornerRadius="20"
-                        Clicked="OnLoginButtonClicked" />   
+                        Clicked="OnLoginButtonClicked" />
 
-                    <!-- Label do wyświetlania błędów -->
+                <!-- Label do wyświetlania błędów -->
                 <Label x:Name="ErrorLabel"
                        TextColor="Red"
                        HorizontalOptions="Center"
@@ -55,8 +55,3 @@
         </Grid>
     </ContentPage.Content>
 </ContentPage>
-
-
-
-
-

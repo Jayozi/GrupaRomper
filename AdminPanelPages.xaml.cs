@@ -9,16 +9,19 @@ namespace projekt
         public AdminPanelPage()
         {
             InitializeComponent();
-            loadUsers(); 
+            loadUsers();
         }
 
         // Odświeża listę użytkowników wyświetlanych w interfejsie
         private void loadUsers()
         {
-            Database.Connection();
-            UserList.ItemsSource = null;
-            UserList.ItemsSource = userManager.ListaUzytkownikow;
+            userManager.ListaUzytkownikow.Clear(); 
+            Database.LoadUsers();                  
+
+            UserList.ItemsSource = null;            
+            UserList.ItemsSource = userManager.ListaUzytkownikow; 
         }
+
 
         // Obsługuje zmianę hasła dla zalogowanego użytkownika
         private async void OnChangePassword(object sender, EventArgs e)
@@ -39,8 +42,12 @@ namespace projekt
         // Pokazuje panel zarządzania użytkownikami i odświeża listę
         private void OnManageUserClicked(object sender, EventArgs e)
         {
-            loadUsers();
-            userManagementPanel.IsVisible = true;
+            // Pokaż panel zarządzania użytkownikami
+            userManagementPanel.IsVisible = !userManagementPanel.IsVisible;
+
+            // Załaduj listę użytkowników
+            if (userManagementPanel.IsVisible)
+                loadUsers();
         }
 
         // Usuwa wskazanego użytkownika po potwierdzeniu, z wyjątkiem aktualnie zalogowanego
@@ -141,6 +148,13 @@ namespace projekt
         {
             await Navigation.PushAsync(new AdminBusPage());
         }
+
+        private async void OnViewBusManagement(object sender, EventArgs e)
+        {
+            // Przykładowo, zakładam że zarządzanie busami to nowa strona AdminBusPage
+            await Navigation.PushAsync(new AdminBusPage());
+        }
+
 
         // Powrót do strony głównej 
         private async void OnBackButtonClicked(object sender, EventArgs e)
