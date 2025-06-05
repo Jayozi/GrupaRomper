@@ -1,4 +1,4 @@
-# 🚌 Aplikacja autobusowa – .NET MAUI (Ruski)
+# 🚌 Nasza Wielka Aplikacja Autobusowa – Produkt Ludowej Pracy 🚩 - .NET MAUI (Ruski)
 
 | 🌐 Dokumentacja w językach |  
 |---------------------------|  
