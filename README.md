@@ -119,13 +119,12 @@ cd projekt-autobusy
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autorzy
 
-**Imię i nazwisko:** Jan Kowalski  
-**Szkoła:** Technikum Programistyczne XYZ  
+**Imię i nazwisko:** Krystian Koza
+**Imię i nazwisko:** Mateusz Janiczek
+**Imię i nazwisko:** Krystian Koza
 **Rok szkolny:** 2024/2025  
-
-> *(Zmień dane powyżej na własne przed opublikowaniem)*
 
 ---
 
