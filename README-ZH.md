@@ -38,9 +38,9 @@
 
 ---
 <div align="center">
-![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
-![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
-![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
+  <img src="https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif" width="300" />
+    <img src="https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif" width="300" />
+    <img src="https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif" width="300" />
 </div>
 
 *图注：我们为伟大的中华人民共和国干杯！*
