@@ -1,44 +1,48 @@
-# 🚌 Avtobusnoe prilozhenie – .NET MAUI (Russkiy) 🇷🇺
+# 🚌 Aplikacja autobusowa – .NET MAUI (Polski 🇵🇱 z rosyjskimi słowami)
 
-# 🚌 Bus Management App – .NET MAUI  
-| 🌐 Documentation Languages |  
+| 🌐 Dokumentacja w językach |  
 |---------------------------|  
 | 🇬🇧 [English](README.md) |  
 | 🇵🇱 [Polski](README-PL.md) |  
-| 🇩🇪 [Deutsch](README-DE.md) _(coming soon)_ |  
-| 🇷🇺 [Русский](README-RU.md) _(coming soon)_ |   
-| 🇨🇳 [中文](README-ZH.md) _(coming soon)_ |
+| 🇩🇪 [Deutsch](README-DE.md) |  
+| 🇷🇺 [Русский](README-RU.md) |   
+| 🇨🇳 [中文](README-ZH.md) |
 
 ---
 
-## Privet, tovarishchi!
+## Witajcie, towariści i towarzyszki!
 
-Eta prilozhenie — NASh proekt dlya upravleniya avtobusami. Poka malo tekstov na russkom, no skoroye budet bolshe!  
-Potomu chto: "Tolko v edinstve — nasha sila" — govorit Velikiy Tovarishch.
-
----
-
-👉 **Skachat proekt (RAR):**  
-[MediaFire ssylka](https://www.mediafire.com/file/jiod1vuoa9j1ulv/projekt.rar/file)
+Ta aplikacja — to nie czyjś prywatny projekt, to jest НАША aplikacja! Nie МОЙ, a НАШ!  
+Bo zgodnie z mądrością великих Lenina i Stalina: „Razom silni” — razem silni jesteśmy, i razem zarządzamy autobusami!
 
 ---
 
-## Vazhnyye faktory:
-
-- Proekt — NE MOY, a NASh! Kogda rabotaem vmeste, vodka budet vsegda.  
-- Esli vash uchitel iz Konfederatsii posmotrit na etot README — on tiho zasmeetsya, no tovarishchi — ne rasskazhite emu!  
-- Ne zabud'te pit’ chay s limonom posle raboty i chitat nashe sovmestnoe tvorenie.
+👉 **Pobierz projekt (RAR):**  
+[MediaFire link](https://www.mediafire.com/file/jiod1vuoa9j1ulv/projekt.rar/file)
 
 ---
 
-## Chto budet dal’she?
+## Wazne fakty:
 
-- Bol’she tekstov na russkom i polskom  
-- Kartinki i sovetskaya nostalgiyka  
-- Memy i veselye momenty dlya tovarishchey
+- Ta aplikacja to efekt naszej wspólnej pracy, towaryshi! Nie ma tu miejsca dla burżuazji i kapitalistycznych prywatników!  
+- Po ciężkiej robocie obowiązkowo picie wódki, aby uczcić naszą wspólną ideę. Пьем za NASZ projekt!  
+- Jeśli twój nauczyciel — тот самый злобный konfederat — przeczyta ten README, niech się śmieje cicho, bo to jest NASZA tajemnica.
 
 ---
 
-![Russian meme](https://i.imgur.com/jJj9xCy.gif)
+## Co dalej?
 
-*Podpis pod memom: "Kogda chitayesh README i pomnish', chto Lenin by schital eto khoroshey rabotoy"*
+- Więcej tekstów po rosyjsku i polsku — aby każdy towariщ zrozumiał, że to jest НАШ projekt!  
+- Скриншоты, мемы i inne dobra socjalistyczne rozrywki.  
+- Wprowadzimy funkcje, które ułatwią życie każdemu proletariuszowi w podróży autobusowej!
+
+---
+
+Dziękujemy za wsparcie i wzajemną pomoc, towariści!  
+Niech żyje wspólna praca i rozwój naszej aplikacji! Да здравствует НАША работа!
+
+---
+
+![Soviet meme](https://i.imgur.com/jJj9xCy.gif)
+
+*Podpis pod memem: „Kiedy czytasz README i wiesz, że Lenin by to zaakceptował.”*
