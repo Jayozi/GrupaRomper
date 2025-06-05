@@ -40,3 +40,5 @@ Dis ist ein super cool Projekt fur die mobile Applikation mit MAUI .NET gemacht 
 
 📸 **Bitte Geduld haben!** Wir machen das fertig… nach Kaffee und Kiełbasa. ☕🌭  
 Danke schön für dein visiten auf unsere GitHub, und… bis bald! 👋
+
+![Tusk der Agent](https://media.giphy.com/media/3o7TKxyf6jDwTcR77O/giphy.gif)
