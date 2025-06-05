@@ -3,7 +3,11 @@
 Projekt stworzony w ramach nauki programowania aplikacji mobilnych w .NET MAUI. Umożliwia rejestrację i logowanie użytkowników, rozróżnianie ról (admin/użytkownik) oraz zarządzanie trasami autobusów (dodawanie, edycja, usuwanie).
 
 ---
+## Dłuższa dokumentacja  
+Pełna, szczegółowa dokumentacja projektu dostępna jest pod linkiem:  
+[**Dłuższa dokumentacja**](README-longer.md)
 
+---
 ## 📌 Spis treści
 
 - [📸 Zrzuty ekranu](#-zrzuty-ekranu)
