@@ -1,4 +1,4 @@
-# 🚌 Aplikacja autobusowa – .NET MAUI (Polski 🇵🇱 z rosyjskimi słowami)
+# 🚌 Aplikacja autobusowa – .NET MAUI (Ruski)
 
 | 🌐 Dokumentacja w językach |  
 |---------------------------|  
