@@ -31,6 +31,8 @@
   <img src="https://chineseposters.net/sites/default/files/images/e37-724.jpg" width="300" />
 </div>
 
+---
+
 感谢您的支持！愿我们的应用像祖国一样繁荣昌盛！  
 伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！
 
