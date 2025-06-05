@@ -129,7 +129,7 @@ cd projekt-autobusy
 
 **Imię i nazwisko:** Krystian Koza <br>
 **Imię i nazwisko:** Mateusz Janiczek <br>
-**Imię i nazwisko:** Krystian Koza <br>
+**Imię i nazwisko:** Jakub Michałek <br>
 **Rok szkolny:** 2024/2025  
 
 ---
