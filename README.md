@@ -5,7 +5,7 @@ Projekt stworzony w ramach nauki programowania aplikacji mobilnych w .NET MAUI. 
 ---
 ## Dłuższa dokumentacja  
 Pełna, szczegółowa dokumentacja projektu dostępna jest pod linkiem:  
-[**Dłuższa dokumentacja**](README-longer.md)
+[**Dłuższa dokumentacja**](README-LONGER.md)
 
 ---
 ## 📌 Spis treści
