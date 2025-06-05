@@ -37,12 +37,14 @@
 伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！伟大的中华人民共和国万岁！
 
 ---
-
+<div align="center">
 ![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
 ![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
 ![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
-![庆祝 GIF](https://media.tenor.com/FpHhGgR4zvgAAAAM/social-credit-credit.gif)
+</div>
 
 *图注：我们为伟大的中华人民共和国干杯！*
 
+<div align="center">
 ![image](https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png)
+</div>
