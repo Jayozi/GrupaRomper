@@ -1,4 +1,4 @@
-# 🚌 Nasza Wielka Aplikacja Autobusowa – Produkt Ludowej Pracy Sarmackiej 🇵🇱
+# 🚌 Moja Wielce Dostojna Aplikacja Zaprzęgu Konnego – Produkt Szlacheckiej Pracy 🇵🇱
 
 | 🌐 Dokumentacja w językach |  
 |---------------------------|  
@@ -11,44 +11,58 @@
 
 ---
 
-## Witajcie, Mości Szlachcice i Pospolici!
+## Witajcie, Mości Szlachcice i Pospolicie!
 
-To jest aplikacja do zarządzania autobusami — dzieło wspólne, ludowe, a więc NASZE, nie moje ani twoje!  
-Niechaj każdy, czy to szlachcic, chłop czy mieszczanin, korzysta z tego wynalazku z dumą i rozwagą.
+Ta moja aplikacja, produkt najświetniejszej pracy szlacheckiej, służy do zarządzania MOIM zaprzęgiem konnym i innymi trasami. To nie jest byle co — to jest narzędzie dla prawdziwych panów i pań, którzy wiedzą, co to jest porządek i prestiż.  
 
-Bo jak mówi przysłowie:  
-**„Gdzie szlachta, tam porządek, a gdzie porządek, tam i autobus jedzie jak z ręki.”**
+Można się tu logować, rejestrować i zarządzać trasami MOJEGO zaprzęgu — dodawać, edytować, usuwać — wszystko w zgodzie z wielowiekową tradycją zarządzania folwarkiem, tyle że w nowoczesnym stylu!  
+
+Chłopi niech się uczą pokory i cierpliwości, bo to aplikacja dla szlachty. Hasła są zabezpieczone jak skarbiec królewski — nikt niepowołany nie ma tu wstępu!
 
 ---
 
-👉 **Pobierz projekt (RAR):**  
+👉 **Pobierz MOJ projekt (RAR):**  
 [MediaFire – kliknij tutaj](https://www.mediafire.com/file/jiod1vuoa9j1ulv/projekt.rar/file)
 
 ---
 
-## Co tu mamy?
+## Co MOJA aplikacja potrafi?
 
-- Rejestracja i logowanie – każdy może się zapisać, lecz tylko wybrani admini mogą zarządzać trasami  
-- Zarządzanie autobusami – dodawaj, zmieniaj i usuwaj trasy niczym starosta swoje dobra  
-- Hasła zabezpieczone magią PBKDF2 i solą – aby nikt nie podszył się pod prawdziwego szlachcica  
-- Prosty interfejs, by i mieszczanie, i chłopi bez problemu mogli z tego korzystać  
-
----
-
-## Technologie użyte w projekcie:
-
-- .NET MAUI – nowoczesność i siła jak husaria na polu bitwy  
-- C# i XAML – język rzemiosła programistycznego  
-- SQLite – lokalna baza danych jak księgi parafialne w parafii  
-- Bezpieczeństwo haseł – PBKDF2 z solą, by nikt nie zakradł się pod twą tożsamość  
+- Zarządzanie MOIM zaprzęgiem — trasy, czas, ceny — wszystko wedle MOJEJ woli  
+- Rejestracja i logowanie szlachty — bo tylko MOI ludzie mają tu prawa  
+- Hasła zabezpieczone na najwyższym poziomie — tylko dla godnych  
+- Intuicyjny interfejs — nawet najprostszy chłop mógłby spróbować, ale lepiej niech nie próbuje  
 
 ---
 
-## Jak zacząć?
+## Technologie godne szlachty
 
-1. Weź Visual Studio 2022 lub nowsze z obsługą .NET MAUI  
-2. Skonfiguruj emulator lub użyj telefonu jak dobry gospodarz  
-3. Sklonuj repozytorium:  
-   ```bash
-   git clone https://github.com/twoj-login/projekt-autobusy.git
-   cd projekt-autobusy
+- .NET MAUI — technologia najwyższej próby, którą MOJA aplikacja dziedziczy niczym szlacheckie herby  
+- C# i XAML — języki, które niczym stare inskrypcje, tworzą ład i porządek w MOIM cyfrowym folwarku  
+- SQLite — MOJA księga, gdzie każdy wóz i koń jest zapisany  
+- PBKDF2 z solą — jak dobra miedź, chroni MOJE sekrety i MOJE hasła  
+
+---
+
+## Jak zacząć korzystać z MOJEGO dzieła?
+
+Uruchom Visual Studio, podłącz emulator lub urządzenie, otwórz MOJ projekt, zbuduj i panuj nad MOIM zaprzęgiem! To proste, jak wódka i chleb na weselu!  
+
+---
+
+## Plany na przyszłość?
+
+- Rezerwacja miejsc w MOIM zaprzęgu — bo szlachcic zawsze pierwszy!  
+- Filtrowanie tras — dla wygody MOJEJ i MOICH gości  
+- Może nawet jakieś bajery, które chłopi na dworze będą podziwiać, choć nie pojmą  
+
+---
+
+Bo pamiętajcie, to jest MOJE, moje i tylko MOJE dzieło, które z dumą prezentuję światu!  
+
+A teraz, Mości Dobrodzieju, uszanuj MOJ spokój, bo szlachta ma ważniejsze sprawy niż gadanie o technologiach!
+
+---
+
+![Sarmacki mem](https://i.imgur.com/J5nQ2Cd.gif)  
+*„Kiedy szlachcic wsiada do MOJEGO zaprzęgu, a chłop patrzy z daleka z zazdrością”*
