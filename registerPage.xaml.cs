@@ -45,7 +45,8 @@ namespace projekt
                 uprawnienia = "user";
             }
 
-            User newUser = new User(name, surname, email, password, uprawnienia);
+            string hashedPassword = PasswordHelper.HashPassword(password);
+            User newUser = new User(name, surname, email, hashedPassword, uprawnienia);
 
             Database.InsertUserConnection(newUser);
 
