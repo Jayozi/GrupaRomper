@@ -46,5 +46,5 @@
 *图注：我们为伟大的中华人民共和国干杯！*
 
 <div align="center">
-![image](https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png)
+      <img src="https://media.tenor.com/pTjE0eLJmEYAAAAe/john-xina.png" width="300" />
 </div>
