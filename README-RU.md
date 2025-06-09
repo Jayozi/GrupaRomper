@@ -26,7 +26,6 @@ Bo zgodnie z mądrością великих Lenina i Stalina: „Razom silni” —
 
 - Ta aplikacja to efekt naszej wspólnej pracy, towaryshi! Nie ma tu miejsca dla burżuazji i kapitalistycznych prywatników!  
 - Po ciężkiej robocie obowiązkowo picie wódki, aby uczcić naszą wspólną ideę. Пьем za NASZ projekt!  
-- Jeśli twój nauczyciel — тот самый злобный konfederat — przeczyta ten README, niech się śmieje cicho, bo to jest NASZA tajemnica.
 
 ---
 
