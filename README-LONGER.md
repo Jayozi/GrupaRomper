@@ -80,7 +80,7 @@ projekt/
 
 | Funkcja           | Format     | Opis                                                         |
 |-------------------|------------|--------------------------------------------------------------|
-| Eksport danych    | `.JSON`     | Tworzy plik z listą użytkowników/autobusów                  |
+| Eksport danych    | `.JSON`     | Tworzy plik z listą autobusów                  |
 | Import danych     | `.JSON`     | Wczytuje dane z pliku i aktualizuje bazę danych             |
 | Baza danych       | SQLite     | Zapis lokalny danych, inicjalizacja przy uruchomieniu       |
 | Walidacja danych  | C#         | Każda operacja sprawdza poprawność pól i składnię e-maili   |
