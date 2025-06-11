@@ -80,8 +80,8 @@ projekt/
 
 | Funkcja           | Format     | Opis                                                         |
 |-------------------|------------|--------------------------------------------------------------|
-| Eksport danych    | `.txt`     | Tworzy plik z listą użytkowników/autobusów                  |
-| Import danych     | `.txt`     | Wczytuje dane z pliku i aktualizuje bazę danych             |
+| Eksport danych    | `.JSON`     | Tworzy plik z listą użytkowników/autobusów                  |
+| Import danych     | `.JSON`     | Wczytuje dane z pliku i aktualizuje bazę danych             |
 | Baza danych       | SQLite     | Zapis lokalny danych, inicjalizacja przy uruchomieniu       |
 | Walidacja danych  | C#         | Każda operacja sprawdza poprawność pól i składnię e-maili   |
 
