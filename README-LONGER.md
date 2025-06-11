@@ -121,8 +121,8 @@ public static bool SprawdzPoprawnoscHasla(string haslo)
 
 | Typ           | Email               | Hasło      | Uprawnienia |
 |---------------|---------------------|------------|-------------|
-| Administrator | `admin@example.com` | `Admin123` | `adm123`    |
-| Użytkownik    | `user@example.com`  | `User1234` | `null`      |
+| Administrator | `test@example.com` | `test` | `adm123`    |
+| Użytkownik    | `user@example.com`  | `user` | `null`      |
 
 ---
 
