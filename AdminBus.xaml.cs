@@ -2,6 +2,7 @@
 using projekt.Models;
 using System;
 using System.Collections.Generic;
+using static projekt.Database;
 
 namespace projekt
 {
@@ -13,17 +14,24 @@ namespace projekt
         // Konstruktor strony
         public AdminBusPage()
         {
-            InitializeComponent();   
-            LoadBuses();            
-            BindingContext = this; 
+            InitializeComponent();
+            LoadBuses();
+            BindingContext = this;
         }
 
         // Metoda ładująca autobusy z bazy i aktualizująca widok
         private void LoadBuses()
         {
-            Buses = Database.LoadBuses();
-            BusesCollectionView.ItemsSource = null; 
-            BusesCollectionView.ItemsSource = Buses; 
+            try
+            {
+                Buses = Database.LoadBuses();
+                BusesCollectionView.ItemsSource = null;
+                BusesCollectionView.ItemsSource = Buses;
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Błąd", $"Nie udało się załadować autobusów: {ex.Message}", "OK");
+            }
         }
 
         // Obsługa kliknięcia przycisku „Edytuj” – pokazuje lub ukrywa panel edycji dla konkretnego autobusu
@@ -47,9 +55,8 @@ namespace projekt
         }
 
         // Obsługa zapisu zmian po edycji autobusu
-        private void OnSaveClicked(object sender, EventArgs e)
+        private async void OnSaveClicked(object sender, EventArgs e)
         {
-            // Sprawdź czy przycisk posiada przypisany obiekt autobusu jako CommandParameter
             if (sender is Button button && button.CommandParameter is Bus bus)
             {
                 try
@@ -61,74 +68,105 @@ namespace projekt
                     bus.OriginalSkad = bus.Skad;
                     bus.OriginalDokad = bus.Dokad;
 
-                    DisplayAlert("Sukces", "Zapisano zmiany.", "OK");
-                    LoadBuses();  // Odśwież listę autobusów
+                    await DisplayAlert("Sukces", "Zapisano zmiany.", "OK");
+                    LoadBuses();
                 }
                 catch (Exception ex)
                 {
-                    DisplayAlert("Błąd", $"Nie udało się zapisać zmian: {ex.Message}", "OK");
+                    await DisplayAlert("Błąd", $"Nie udało się zapisać zmian: {ex.Message}", "OK");
                 }
             }
         }
 
         // Obsługa dodawania nowego autobusu do bazy danych
-        private void OnAddBusClicked(object sender, EventArgs e)
+        private async void OnAddBusClicked(object sender, EventArgs e)
         {
-            // Pobierz dane z formularza
-            string nazwa = NewBusName.Text;
-            string skad = NewBusFrom.Text;
-            string dokad = NewBusTo.Text;
-            string godzina = NewBusTime.Time.ToString(@"hh\:mm");
-
-            // Sprawdź, czy cena jest poprawna liczbowo
-            if (!double.TryParse(NewBusPrice.Text, out double cena))
+            try
             {
-                DisplayAlert("Błąd", "Nieprawidłowa cena biletu.", "OK");
-                return;
+                string nazwa = NewBusName.Text;
+                string skad = NewBusFrom.Text;
+                string dokad = NewBusTo.Text;
+                string godzina = NewBusTime.Time.ToString(@"hh\:mm");
+
+                if (!double.TryParse(NewBusPrice.Text, out double cena))
+                {
+                    await DisplayAlert("Błąd", "Nieprawidłowa cena biletu.", "OK");
+                    return;
+                }
+
+                Bus newBus = new Bus(nazwa, skad, dokad, godzina, cena);
+                int newId = Database.InsertBus(newBus);
+                newBus.ID = newId;
+
+                NewBusName.Text = "";
+                NewBusFrom.Text = "";
+                NewBusTo.Text = "";
+                NewBusTime.Time = new TimeSpan(0, 0, 0);
+                NewBusPrice.Text = "";
+
+                LoadBuses();
+
+                await DisplayAlert("Sukces", "Dodano nowy autobus.", "OK");
             }
-
-            // Utwórz nowy obiekt autobusu
-            Bus newBus = new Bus(nazwa, skad, dokad, godzina, cena);
-
-            // Dodaj go do bazy i pobierz przypisane ID
-            int newId = Database.InsertBus(newBus);
-            newBus.ID = newId;
-
-            // Wyczyść pola formularza po dodaniu
-            NewBusName.Text = "";
-            NewBusFrom.Text = "";
-            NewBusTo.Text = "";
-            NewBusTime.Time = new TimeSpan(0, 0, 0);
-            NewBusPrice.Text = "";
-
-            LoadBuses(); 
-
-            DisplayAlert("Sukces", "Dodano nowy autobus.", "OK");
+            catch (Exception ex)
+            {
+                await DisplayAlert("Błąd", $"Nie udało się dodać autobusu: {ex.Message}", "OK");
+            }
         }
 
         // Obsługa usuwania autobusu po potwierdzeniu
         private async void OnDeleteBusClicked(object sender, EventArgs e)
         {
-            // Sprawdź, czy kliknięty przycisk ma powiązany autobus
             if (sender is Button button && button.CommandParameter is Bus bus)
             {
                 bool confirm = await DisplayAlert("Potwierdzenie", $"Czy na pewno chcesz usunąć trasę {bus.Nazwa}?", "Tak", "Nie");
                 if (confirm)
                 {
-                    Database.DeleteBus(bus);
-                    LoadBuses();             
-                    await DisplayAlert("Sukces", "Trasa została usunięta.", "OK");
+                    try
+                    {
+                        Database.DeleteBus(bus);
+                        LoadBuses();
+                        await DisplayAlert("Sukces", "Trasa została usunięta.", "OK");
+                    }
+                    catch (Exception ex)
+                    {
+                        await DisplayAlert("Błąd", $"Nie udało się usunąć trasy: {ex.Message}", "OK");
+                    }
                 }
+            }
+        }
+
+        private async void OnExportBusesClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                await BusFileStorage.SaveBusesAsync(Buses);
+                await DisplayAlert("Sukces", "Lista autobusów została wyeksportowana.", "OK");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Błąd", $"Nie udało się wyeksportować autobusów: {ex.Message}", "OK");
+            }
+        }
+
+        private async void OnImportBusesClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                int imported = await BusImporter.ImportBusesFromFileAsync();
+                await DisplayAlert("Import zakończony", $"Dodano {imported} nowych autobusów.", "OK");
+                LoadBuses();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Błąd", $"Nie udało się zaimportować autobusów: {ex.Message}", "OK");
             }
         }
 
         // Obsługa przycisku powrotu – nawigacja wstecz, jeśli to możliwe
         private async void OnBackButtonClicked(object sender, EventArgs e)
         {
-            if (Navigation.NavigationStack.Count > 1)
                 await Navigation.PopAsync();
-            else
-                await DisplayAlert("Informacja", "Brak poprzedniej strony.", "OK");
         }
     }
 }

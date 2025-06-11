@@ -153,5 +153,45 @@ namespace projekt
             using var connection = CreateBusConnection();
             connection.Update(bus);
         }
+
+        public static string GetBusDbPath()
+        {
+            return Path.Combine(fullPath, "BusesDataBase.db");
+        }
+        public static class BusImporter
+        {
+            // Sprawdza czy autobus istnieje w bazie, po kluczowych polach
+            private static bool BusExists(SQLiteConnection connection, Bus bus)
+            {
+                var existing = connection.Table<Bus>().FirstOrDefault(b =>
+                    b.Nazwa == bus.Nazwa &&
+                    b.Skad == bus.Skad &&
+                    b.Dokad == bus.Dokad &&
+                    b.Godzina == bus.Godzina);
+
+                return existing != null;
+            }
+
+            // Importuje autobusy z pliku do bazy, dodając tylko te, których nie ma
+            public static async Task<int> ImportBusesFromFileAsync()
+            {
+                List<Bus> busesFromFile = await BusFileStorage.LoadBusesAsync();
+                int addedCount = 0;
+
+                using var connection = new SQLite.SQLiteConnection($"{Database.GetBusDbPath()}");
+                connection.CreateTable<Bus>();
+
+                foreach (var bus in busesFromFile)
+                {
+                    if (!BusExists(connection, bus))
+                    {
+                        connection.Insert(bus);
+                        addedCount++;
+                    }
+                }
+
+                return addedCount;
+            }
+        }
     }
 }

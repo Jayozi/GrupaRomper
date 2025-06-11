@@ -45,16 +45,22 @@ namespace projekt
             if (string.IsNullOrWhiteSpace(haslo))
                 return false;
 
-            // Sprawdza czy długość hasła jest między 5 a 14 znaków 
-            if (haslo.Length >= 5 && haslo.Length <= 14)
+            if (haslo.Length < 8 || haslo.Length > 20)
+                return false;
+
+            bool hasUpper = false;
+            bool hasLower = false;
+            bool hasDigit = false;
+
+            foreach (char c in haslo)
             {
-                // Sprawdza, czy jest przynajmniej jedna duża i jedna mała litera
-                if (haslo.Any(char.IsUpper) && haslo.Any(char.IsLower))
-                {
-                    return true;
-                }
+                if (char.IsUpper(c)) hasUpper = true;
+                else if (char.IsLower(c)) hasLower = true;
+                else if (char.IsDigit(c)) hasDigit = true;
             }
-            return false;
+
+            return hasUpper && hasLower && hasDigit;
         }
+
     }
 }

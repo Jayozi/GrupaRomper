@@ -19,31 +19,32 @@ namespace projekt
         // Obsługa kliknięcia przycisku "Zaloguj się"
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            string email = emailEntry.Text;       
-            string password = passwordEntry.Text; 
-
-            // Znajdź użytkownika o podanym emailu
-            var user = userManager.ListaUzytkownikow.FirstOrDefault(u => u.Email == email);
-
-            // Sprawdź, czy hasło jest poprawne (porównanie z zahashowanym hasłem)
-            if (user != null && PasswordHelper.VerifyPassword(password, user.Haslo))
+            try
             {
-                LoggedInUser = user;  // Zapisz użytkownika jako zalogowanego
+                string email = emailEntry.Text;
+                string password = passwordEntry.Text;
 
-                // Przekieruj na odpowiedni panel w zależności od uprawnień
-                if (user.Uprawnienia == "adm123")
+                var user = userManager.ListaUzytkownikow.FirstOrDefault(u => u.Email == email);
+
+                if (user != null && PasswordHelper.VerifyPassword(password, user.Haslo))
                 {
-                    await Navigation.PushAsync(new AdminPanelPage());
+                    LoggedInUser = user;
+
+                    if (user.Uprawnienia == "adm123")
+                        await Navigation.PushAsync(new AdminPanelPage());
+                    else
+                        await Navigation.PushAsync(new UserPanelPage());
                 }
                 else
                 {
-                    await Navigation.PushAsync(new UserPanelPage());
+                    ErrorLabel.Text = "Niepoprawny e-mail lub hasło!";
                 }
             }
-            else
+            catch (Exception ex)
             {
-                ErrorLabel.Text = "Niepoprawny e-mail lub hasło!";
+                await DisplayAlert("Błąd", $"Wystąpił błąd podczas logowania: {ex.Message}", "OK");
             }
         }
+
     }
 }

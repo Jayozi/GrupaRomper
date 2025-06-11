@@ -24,14 +24,7 @@ namespace projekt
         // Obsługa kliknięcia przycisku "Powrót"
         private async void OnBackButtonClicked(object sender, EventArgs e)
         {
-            if (Navigation.NavigationStack.Count > 1)
-            {
                 await Navigation.PopAsync();
-            }
-            else
-            {
-                await DisplayAlert("Informacja", "Brak poprzedniej strony.", "OK");
-            }
         }
     }
 }

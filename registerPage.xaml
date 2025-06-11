@@ -6,7 +6,7 @@
 
     <ContentPage.Content>
         <Grid>
-            
+
             <Button
                 Text="POWRÓT"
                 HorizontalOptions="Start"
@@ -18,9 +18,6 @@
                 BackgroundColor="LightGray"
                 TextColor="Black"
                 CornerRadius="0" />
-
-
-
 
             <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
 
@@ -50,12 +47,24 @@
                        Keyboard="Text" />
                 
                 <!-- HASLO-->
-                <Entry x:Name="PasswordEntry"
-                       Placeholder="Wpisz hasło"
-                       IsPassword="True"
-                       Margin="0,10,0,20"
-                       TextColor="Black"
-                       Keyboard="Text" />
+                <HorizontalStackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Entry x:Name="PasswordEntry"
+                           Placeholder="Wpisz hasło"
+                           IsPassword="True"
+                           WidthRequest="240"
+                           TextColor="Black"
+                           Keyboard="Text" />
+
+                    <Button
+                        Text="ⓘ"
+                        BackgroundColor="Transparent"
+                        TextColor="Blue"
+                        FontAttributes="Bold"
+                        FontSize="30"  
+                        WidthRequest="20"
+                        HeightRequest="24"
+                        Clicked="OnPasswordInfoClicked" />
+                </HorizontalStackLayout>
 
                 <!-- HASLO ADM -->
                 <Entry x:Name="PermissionEntry"
