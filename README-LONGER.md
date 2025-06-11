@@ -149,7 +149,8 @@ public static bool SprawdzPoprawnoscHasla(string haslo)
 ## 👨‍💻 Autor
 
 Autorzy: 
-rystian Koza  
+<br>
+Krystian Koza  
 Mateusz Janiczek  
 Jakub Michałek  
 Rok: **2025**
